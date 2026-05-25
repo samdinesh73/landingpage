@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react'
 
 const Hero = () => {
   const headings = [
-    "Grow Across Every Marketplace",
+    "Scale Your Brand on Every Marketplace",
+    "Ecommerce solutions designed to drive revenue and scale brands",
     "Powering Brands Across Marketplaces",
     "Expand Your Brand Everywhere"
   ];
