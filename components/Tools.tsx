@@ -3,7 +3,7 @@ import React from 'react'
 const Tools = () => {
   return (
     <>
-    <section className="py-20 bg-background">
+    <section className="py-20 bg-background" id="tools">
   <div className="container mx-auto px-4">
     <div
       className="transition-all"
@@ -37,7 +37,7 @@ const Tools = () => {
         </div>
         <h2 className="text-foreground mb-4 font-display">
           Powerful{" "}
-          <span className="bg-gradient-accent bg-clip-text text-transparent">
+          <span className="bg-gradient-accent bg-clip-text">
             E-commerce Tools
           </span>
         </h2>

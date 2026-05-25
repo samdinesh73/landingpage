@@ -3,7 +3,7 @@ import React from 'react'
 const Pills = () => {
   return (
     <>
-    <div className="sticky top-14 z-40 border-y border-border/40 bg-background/90 backdrop-blur-xl shadow-custom-sm/10">
+    <div className="sticky top-18 z-40 border-y border-border/40 bg-background/90 backdrop-blur-xl shadow-custom-sm/10">
   <div className="container mx-auto overflow-x-auto px-4 lg:px-6">
     <nav
       className="flex min-w-max items-center gap-2 py-2.5"

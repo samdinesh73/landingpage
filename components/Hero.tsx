@@ -1,6 +1,52 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 const Hero = () => {
+  const headings = [
+    "Grow Across Every Marketplace",
+    "Powering Brands Across Marketplaces",
+    "Expand Your Brand Everywhere"
+  ];
+
+  const [currentHeadingIndex, setCurrentHeadingIndex] = useState(0);
+  const [displayedText, setDisplayedText] = useState("");
+  const [isTyping, setIsTyping] = useState(true);
+
+  useEffect(() => {
+    const currentHeading = headings[currentHeadingIndex];
+    let charIndex = 0;
+    let isMounted = true;
+
+    if (isTyping) {
+      const typingInterval = setInterval(() => {
+        if (isMounted && charIndex < currentHeading.length) {
+          setDisplayedText(currentHeading.substring(0, charIndex + 1));
+          charIndex++;
+        } else if (isMounted && charIndex >= currentHeading.length) {
+          setIsTyping(false);
+          clearInterval(typingInterval);
+        }
+      }, 80); // Typewriter speed
+
+      return () => {
+        isMounted = false;
+        clearInterval(typingInterval);
+      };
+    } else {
+      const delayTimer = setTimeout(() => {
+        if (isMounted) {
+          setCurrentHeadingIndex((prev) => (prev + 1) % headings.length);
+          setDisplayedText("");
+          setIsTyping(true);
+        }
+      }, 5000); // 5 seconds delay before next heading
+
+      return () => {
+        isMounted = false;
+        clearTimeout(delayTimer);
+      };
+    }
+  }, [isTyping, currentHeadingIndex]);
+
   return (
     <>
     <section style={{ background: "rgb(106 173 226)" }} className="relative min-h-[92vh] flex items-center justify-center overflow-hidden bg-gradient-hero" aria-label="Hero section"
@@ -22,16 +68,16 @@ const Hero = () => {
               <span
                 className="text-primary-foreground/80 text-[11px] hidden sm:inline">₹1000Cr+ GMV managed</span>
           </div>
-          <h1 className="font-display text-[2.25rem] md:text-5xl lg:text-[3.75rem] font-extrabold text-white mb-5 leading-[1.06] tracking-[-0.035em] hero-stagger-2"
-            itemProp="headline" style={{ textWrap: 'balance' }}>Scale Your Brand on <span className="relative inline-block">Every Marketplace<span className="absolute -bottom-1.5 left-0 w-full h-[3px] bg-accent/50 rounded-full"></span></span>
+          <h1 className="font-display text-[2.25rem] md:text-5xl lg:text-[3.75rem] font-extrabold text-white mb-5 leading-[1.06] tracking-[-0.035em] hero-stagger-2 min-h-[3.75rem]"
+            itemProp="headline" style={{ textWrap: 'balance' }}>
+            <span className="typewriter-text">{displayedText}</span>
+            <span className="typewriter-cursor"></span>
           </h1>
-          <p className="text-sm md:text-base text-primary-foreground/80 mb-1.5 font-medium tracking-wide hero-stagger-3">India's Leading <a className="text-accent hover:text-accent transition-colors" href="/services/amazon-marketing-agency"
-              data-discover="true">Amazon Marketing Agency</a> &amp; E-commerce Partner — 500+ Brands, ₹1000Cr+ GMV managed</p>
+          <p className="text-sm md:text-base text-primary-foreground/80 mb-1.5 font-medium tracking-wide hero-stagger-3">Grow faster across global marketplaces, domestic ecommerce platforms, quick commerce channels, and Shopify with expert ecommerce management solutions from SalesStrive.</p>
           <p
             className="text-[15px] md:text-base text-primary-foreground/75 mb-10 max-w-lg mx-auto lg:mx-0 hero-description leading-relaxed hero-stagger-4"
-            itemProp="description">Expert marketplace management across Amazon, Flipkart, Myntra, Blinkit &amp; 15+ platforms. Delhi NCR based, trusted
-            since 2016.</p>
-            <div className="mb-8 hidden lg:block hero-stagger-4">
+            itemProp="description">We help brands increase visibility, improve conversions, optimize operations, and drive sustainable online sales growth through marketplace expertise, performance marketing, and end-to-end account management.</p>
+            {/* <div className="mb-8 hidden lg:block hero-stagger-4">
               <p className="text-primary-foreground/65 eyebrow mb-3 tracking-[0.16em]">Trusted by Leading Brands</p>
               <div className="relative max-w-2xl py-1">
                 <div className="grid grid-cols-3 items-center gap-x-7 gap-y-4 sm:grid-cols-6 md:gap-x-9">
@@ -54,7 +100,7 @@ const Hero = () => {
                       loading="lazy" decoding="async" /></div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="mb-10 grid max-w-2xl grid-cols-1 gap-3 sm:grid-cols-3 hero-stagger-4">
               <div className="rounded-2xl border border-background/[0.08] bg-background/[0.06] px-4 py-3 text-left backdrop-blur-xl">
                 <p className="text-lg font-bold text-white md:text-xl">500+</p>
@@ -213,7 +259,7 @@ const Hero = () => {
   </div>
   </div>
   <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5 text-primary-foreground/35 hover:text-primary-foreground/50 transition-colors cursor-pointer"
-    aria-hidden="true"><span className="text-[9px] uppercase tracking-[0.3em] font-medium">Scroll</span><svg xmlns="http://www.w3.org/2000/svg" width="24"
+    aria-hidden="true"><span className="text-[9px] uppercase tracking-[0.3em] font-medium"><a href="#features">Scroll</a></span><svg xmlns="http://www.w3.org/2000/svg" width="24"
       height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
       className="lucide lucide-chevron-down h-3.5 w-3.5 animate-bounce"><path d="m6 9 6 6 6-6"></path></svg></div>
 </section>

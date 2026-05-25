@@ -32,7 +32,7 @@ const MarketPlace = () => {
 
 <section
   className="py-20 md:py-28 bg-muted/20 relative"
-  id="services"
+  id="marketplaces"
   itemScope
   itemType="https://schema.org/ItemList"
 >

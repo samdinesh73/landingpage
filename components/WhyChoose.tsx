@@ -1,6 +1,44 @@
 import React from 'react'
 
 const WhyChoose = () => {
+
+  const features = [
+  {
+    number: "01",
+    title: "Dedicated Ecommerce Specialists",
+    desc: "Our team understands marketplace algorithms, buyer behavior, advertising strategies, and ecommerce growth systems.",
+  },
+
+  {
+    number: "02",
+    title: "Data-Driven Growth Approach",
+    desc: "We use analytics, performance tracking, and optimization strategies to improve visibility and conversions.",
+  },
+
+  {
+    number: "03",
+    title: "End-to-End Account Management",
+    desc: "From setup to scaling, we manage your ecommerce operations completely.",
+  },
+
+  {
+    number: "04",
+    title: "Multi-Platform Marketplace Experience",
+    desc: "Experience across Amazon, Flipkart, Meesho, Shopify, Quick Commerce, and global ecommerce marketplaces.",
+  },
+
+  {
+    number: "05",
+    title: "Performance-Focused Strategies",
+    desc: "Every strategy is built to increase sales, improve ROI, and maximize profitability.",
+  },
+
+  {
+    number: "06",
+    title: "Operational Excellence",
+    desc: "Proven processes and streamlined execution for long-term ecommerce growth and scalability.",
+  },
+]
   return (
    <>
    <section className="py-24 bg-background">
@@ -239,150 +277,40 @@ const WhyChoose = () => {
         </h3>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div
-          className="transition-all"
-          style={{
-            opacity: 1,
-            transform: "translate(0px, 0px)",
-            filter: "blur(0px)",
-            transitionDuration: "700ms",
-            transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)"
-          }}
-        >
-          <div className="flex gap-4 items-start">
-            <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-primary text-primary-foreground font-bold text-sm flex items-center justify-center">
-              01
-            </div>
-            <div>
-              <h4 className="font-semibold text-foreground mb-1">
-                Cost Effective
-              </h4>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                Competitive pricing with flexible engagement models
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          className="transition-all"
-          style={{
-            opacity: 1,
-            transform: "translate(0px, 0px)",
-            filter: "blur(0px)",
-            transitionDuration: "700ms",
-            transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)"
-          }}
-        >
-          <div className="flex gap-4 items-start">
-            <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-primary text-primary-foreground font-bold text-sm flex items-center justify-center">
-              02
-            </div>
-            <div>
-              <h4 className="font-semibold text-foreground mb-1">
-                Scale Quickly
-              </h4>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                Rapid deployment across multiple channels
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          className="transition-all"
-          style={{
-            opacity: 1,
-            transform: "translate(0px, 0px)",
-            filter: "blur(0px)",
-            transitionDuration: "700ms",
-            transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)"
-          }}
-        >
-          <div className="flex gap-4 items-start">
-            <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-primary text-primary-foreground font-bold text-sm flex items-center justify-center">
-              03
-            </div>
-            <div>
-              <h4 className="font-semibold text-foreground mb-1">
-                Large Inventory Management
-              </h4>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                Few companies can handle complex catalogs
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          className="transition-all"
-          style={{
-            opacity: 1,
-            transform: "translate(0px, 0px)",
-            filter: "blur(0px)",
-            transitionDuration: "700ms",
-            transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)"
-          }}
-        >
-          <div className="flex gap-4 items-start">
-            <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-primary text-primary-foreground font-bold text-sm flex items-center justify-center">
-              04
-            </div>
-            <div>
-              <h4 className="font-semibold text-foreground mb-1">
-                Cross Border Commerce
-              </h4>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                Strong expertise in international marketplaces
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          className="transition-all"
-          style={{
-            opacity: 1,
-            transform: "translate(0px, 0px)",
-            filter: "blur(0px)",
-            transitionDuration: "700ms",
-            transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)"
-          }}
-        >
-          <div className="flex gap-4 items-start">
-            <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-primary text-primary-foreground font-bold text-sm flex items-center justify-center">
-              05
-            </div>
-            <div>
-              <h4 className="font-semibold text-foreground mb-1">
-                MOU with Marketplaces
-              </h4>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                Direct partnerships with all major platforms
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          className="transition-all"
-          style={{
-            opacity: 1,
-            transform: "translate(0px, 0px)",
-            filter: "blur(0px)",
-            transitionDuration: "700ms",
-            transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)"
-          }}
-        >
-          <div className="flex gap-4 items-start">
-            <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-primary text-primary-foreground font-bold text-sm flex items-center justify-center">
-              06
-            </div>
-            <div>
-              <h4 className="font-semibold text-foreground mb-1">
-                Operational Excellence
-              </h4>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                Proven processes for consistent results
-              </p>
-            </div>
-          </div>
-        </div>
+         {features.map((feature, index) => (
+
+    <div key={index} className="flex gap-4 items-start">
+
+      <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-primary text-primary-foreground font-bold text-sm flex items-center justify-center">
+
+        {feature.number}
+
+      </div>
+
+      <div>
+
+        <h4 className="font-semibold text-foreground mb-1">
+
+          {feature.title}
+
+        </h4>
+
+        <p className="text-sm text-muted-foreground leading-relaxed">
+
+          {feature.desc}
+
+        </p>
+
+      </div>
+
+    </div>
+
+  ))}
+       
+      
+        
+        
+        
       </div>
     </div>
   </div>

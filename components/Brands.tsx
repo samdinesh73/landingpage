@@ -5,92 +5,92 @@ const Brands = () => {
   {
     name: "Adidas",
     category: "Fashion",
-    image: "/brands/adidas.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "United Colors of Benetton",
     category: "Fashion",
-    image: "/brands/ucb.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "Pink Harvest",
     category: "FMCG",
-    image: "/brands/pink-harvest.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "iKp",
     category: "FMCG",
-    image: "/brands/ikp.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "Mancode",
     category: "FMCG",
-    image: "/brands/mancode.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "Syska",
     category: "Electronics",
-    image: "/brands/syska.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "Lenovo",
     category: "Electronics",
-    image: "/brands/lenovo.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "Namhya",
     category: "Lifestyle",
-    image: "/brands/namhya.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "Jade Forest",
     category: "Lifestyle",
-    image: "/brands/jade-forest.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "Tipsy Tiger",
     category: "Lifestyle",
-    image: "/brands/tipsy-tiger.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "Rustagi",
     category: "Personal Care",
-    image: "/brands/rustagi.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "Coal Clean Beauty",
     category: "Personal Care",
-    image: "/brands/coal.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "Ozone",
     category: "Personal Care",
-    image: "/brands/ozone.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "Hero",
     category: "Automobile",
-    image: "/brands/hero.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "American Tourister",
     category: "Home",
-    image: "/brands/american-tourister.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "Haken",
     category: "Home",
-    image: "/brands/haken.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "Disney Kids",
     category: "Kids",
-    image: "/brands/disney.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
   {
     name: "Baby Bella",
     category: "Kids",
-    image: "/brands/baby-bella.png",
+    image: "https://sellerrocket.in/img/blog/medium/SC_1.webp",
   },
 ];
 
@@ -122,7 +122,7 @@ const filteredBrands =
   return (
    <>
    
-   <section
+   <section id="proof"
   className="py-24 bg-gradient-subtle"
   style={{ contentVisibility: "auto", containIntrinsicSize: "0px 800px" }}
 >
@@ -130,7 +130,7 @@ const filteredBrands =
     <div className="text-center mb-16">
       <h2 className="text-foreground mb-4 font-display">
         Brands That{" "}
-        <span className="bg-gradient-accent bg-clip-text text-transparent">
+        <span className="bg-gradient-accent bg-clip-text ">
           Trust Us
         </span>
       </h2>

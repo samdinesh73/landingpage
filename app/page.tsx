@@ -27,29 +27,20 @@ export default function Home() {
 <>
 
 
-
-
-
-
-
-
-
-
-
-
 <Hero/>
 
 
 <Pills/>
 <Badges/>
 
-<Counter/>
+
 
 
 
 <MarketPlace/>
 <ServiceScale/>
 <WhyChoose/>
+<Counter/>
 <Brands/>
 < BeforeAfter/>
 <CaseStudy/>

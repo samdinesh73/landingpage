@@ -13,7 +13,7 @@ const Explore = () => {
         Use the fastest route based on whether you need services, city-specific
         support, calculators, or operational guides.
       </p>
-      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-6">
+      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
         <a
           href="/services/amazon-agency-india"
           className="rounded-lg border border-border bg-card p-5 text-left transition-all hover:border-primary hover:shadow-lg"

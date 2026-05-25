@@ -24,7 +24,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/amazon.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="Amazon marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -43,7 +43,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/flipkart.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="Flipkart marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -62,7 +62,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/myntra.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="Myntra marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -81,7 +81,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/blinkit.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="Blinkit marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -100,7 +100,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/walmart.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="Walmart Marketplace marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -119,7 +119,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/swiggy-instamart.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="Swiggy Instamart marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -138,7 +138,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/nykaa.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="Nykaa marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -157,7 +157,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/etsy.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="Etsy marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -176,7 +176,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/flipkart-minutes.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="Flipkart Minutes marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -195,7 +195,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/ajio.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="AJIO marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -214,7 +214,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/jiomart.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="JioMart marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -233,7 +233,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/tata-cliq.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="Tata CLiQ marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -252,7 +252,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/noon.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="Noon marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -271,7 +271,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/bigbasket.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="BigBasket marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -290,7 +290,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/pepperfry.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="Pepperfry marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -309,7 +309,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/lazada.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="Lazada marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -328,7 +328,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/gem.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="GeM marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -347,7 +347,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/amazon-com.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp" 
             alt="Amazon.com marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
@@ -366,7 +366,7 @@ const Certifications = () => {
           }}
         >
           <img
-            src="/marketplaces/meesho.png"
+            src="https://sellerrocket.in/img/blog/medium/SC_1.webp"
             alt="Meesho marketplace logo - Official partner of Sales Strive for e-commerce management"
             loading="lazy"
             decoding="async"
