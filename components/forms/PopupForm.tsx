@@ -136,7 +136,7 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose }) => {
                 Get Your Free Consultation
               </h2>
               <p className="text-gray-500">
-                Let our experts help you reach your goals
+                Let our experts help you reach your goal
               </p>
             </div>
 
