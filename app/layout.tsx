@@ -3,6 +3,7 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/common/Header";
 import Footer from "@/components/common/Footer";
+import Providers from "@/components/Providers";
 
 const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -26,16 +27,22 @@ export default function RootLayout({
       className={`${plusJakarta.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-sans">
+         <Providers>
         <div
           className="animate-page-fade-in"
           style={{ minHeight: "100vh" }}
         >
           <div className="min-h-screen">
+           
+
+            
             <Header/>
             {children}
             <Footer/>
+           
           </div>
         </div>
+        </Providers>
       </body>
     </html>
   );

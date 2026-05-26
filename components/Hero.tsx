@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react'
 const Hero = () => {
   const headings = [
     "Scale Your Brand on Every Marketplace",
-    "Ecommerce solutions designed to drive revenue and scale brands",
-    "Powering Brands Across Marketplaces",
-    "Expand Your Brand Everywhere"
+    "Ecommerce solutions designed to brands",
+    "Elevate your ecommerce business",
+   
   ];
 
   const [currentHeadingIndex, setCurrentHeadingIndex] = useState(0);
@@ -70,7 +70,7 @@ const Hero = () => {
                 className="text-primary-foreground/80 text-[11px] hidden sm:inline">₹1000Cr+ GMV managed</span>
           </div>
           <h1 className="font-display text-[2.25rem] md:text-5xl lg:text-[3.75rem] font-extrabold text-white mb-5 leading-[1.06] tracking-[-0.035em] hero-stagger-2 min-h-[3.75rem]"
-            itemProp="headline" style={{ textWrap: 'balance' }}>
+            itemProp="headline" style={{ textWrap: 'balance' ,height :'150px'}}>
             <span className="typewriter-text">{displayedText}</span>
             <span className="typewriter-cursor"></span>
           </h1>
