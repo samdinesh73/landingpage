@@ -1,9 +1,11 @@
 "use client";
 import React, { useState } from "react"
+import PopupForm from "../forms/PopupForm"
 
 const Header = () => {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [isBookCallOpen, setIsBookCallOpen] = useState(false)
 
   return (
 
@@ -164,7 +166,9 @@ const Header = () => {
             Results
           </a>
         </div>
-        <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 py-2 bg-accent hover:bg-accent-light text-accent-foreground active:scale-[0.97] transition-all duration-300 rounded-full text-[13px] font-semibold px-6 ml-3 shadow-custom-sm hover:shadow-custom-md h-9">
+        <button 
+          onClick={() => setIsBookCallOpen(true)}
+          className="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 py-2 bg-accent hover:bg-accent-light text-accent-foreground active:scale-[0.97] transition-all duration-300 rounded-full text-[13px] font-semibold px-6 ml-3 shadow-custom-sm hover:shadow-custom-md h-9">
           Book a Call
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -479,6 +483,8 @@ const Header = () => {
   </div>
 
 )}
+
+      <PopupForm isOpen={isBookCallOpen} onClose={() => setIsBookCallOpen(false)} />
 
     </>
 
